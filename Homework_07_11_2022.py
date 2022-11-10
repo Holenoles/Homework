@@ -20,11 +20,11 @@ def less_number(a, b, c):
 
     if b < a and b < c:
         print(b)
-        return b
+        return 
 
     if c < a and c < b:
         print(c)
-        return c
+        return 
 
 
 less_number(50, 40, 30)
