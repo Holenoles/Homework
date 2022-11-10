@@ -33,7 +33,7 @@ less_number(50, 40, 30)
 # Функция: "С" принимает значение, и выводит его модуль.
 def modul_chisla(a):
     if a <= 0:
-        a * -1
+        a = -1
         print(a)
         return
     if a > 0:
@@ -45,7 +45,6 @@ modul_chisla(0)
 
 
 # Функция: "D" принимает 2 значения, и выводит их сумму.
-
 def add(a, b):
     results = (a + b)
     print(results)
