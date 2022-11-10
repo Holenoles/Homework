@@ -41,7 +41,7 @@ def modul_chisla(a):
         return
 
 
-modul_chisla(0)
+modul_chisla(-1.2)
 
 
 # Функция: "D" принимает 2 значения, и выводит их сумму.
